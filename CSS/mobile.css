@@ -1,0 +1,225 @@
+@media screen and (max-width : 480px){
+
+    .name-job {
+        left: 30%;
+        top: 3%;
+        transform: translate(-50%, 50%);
+    }
+    .name-job::first-line{
+        font-size: 20px;
+    }
+    .name-job:last-child{
+        font-size: 14px;
+    }
+    .nav{
+        display: block;
+        border: none;
+        height: 150px;
+        background-color: rgb(248, 252, 242);
+    }
+    .nav-info,.nav-profile,.nav-certificate,.nav-project{
+        font-size: 14px;
+        border: none;
+        width: 100%;    
+        padding-left: 230px;
+        padding-bottom: 0;
+        height: 30px;
+    }
+    .nav-info{
+        margin-top: 10px;
+    }
+    .namejob{
+        display: none;
+    }
+    .avata{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid rgb(105, 128, 105);
+        top: 22px;
+        left: 20%;
+    }
+    /* TOPCONTAINER */
+    .topcontainer{
+    display: block;   
+    }
+
+    /* MAIN CONTAINER */
+
+    h2{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .maincontainer p{
+        font-size: 16px;
+    }
+    .maincontainer ul{
+        font-size: 16px;
+    }
+    .maincontainer i{
+        font-size: 36px;
+        padding-top: 25px;
+    }
+    .experience{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .experience.active{
+        height: 600px;
+    }
+    .education{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .education.active{
+        height: 600px;
+        
+    }
+    .activity{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .activity.active{
+        height: 600px;
+        
+    }
+    .row1{
+        display: block;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .row2{
+        display: block;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .btn{
+        font-size: 16px;
+        width: 150px;
+        height: 40px;
+        left: 40px;       
+    }
+    .btn i{
+        padding-top: 2.5px ;
+        padding-left: 10px;
+        font-size: 26px;
+    }
+
+
+    /* hobby */
+    .hobby{
+        height: 400px;
+        margin-bottom: 20px;       
+    }
+    .language{
+        margin-bottom: 20px;       
+    }
+
+    .hobby .content{
+        display: flex;
+    }
+    .icon-hobby{
+        display: block;  
+        width: 50px; 
+        margin-left: 10px; 
+        margin-bottom: 40px;  
+    }
+    .icon-hobby i{
+        padding: 15px;
+        font-size: 22px;
+    }
+    .icon-name{
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 40px; 
+    }
+    .icon-name p{
+        padding: 15px;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    /* Chứng chỉ - Giải thưởng */
+    .certificate{
+        display: block;
+        height: 820px;
+    }
+    .cer-header{
+        gap: 30px;
+    }
+    .cer-header i{
+        font-size: 30px;
+     }
+    .cer-row1{
+        display: block;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .col-line{
+        border-top: 2px ridge;
+    }
+    .cer-java{
+        padding-top: 30px;
+    }
+    .cer-row2{
+        padding: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cer-row3{
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .cer-data{
+        display: block;
+    }
+    /* project */
+
+    .project{
+        display: grid;
+        grid-template-rows: 100px 1800px;
+    }
+    .pro-content{
+        display: block;
+        padding-left: 60px;
+        padding-right: 60px;
+        
+    }
+    .project h4{
+        font-size: 14px;
+    }
+    .col1{
+        grid-template-rows: 247px 50px 50px 100px 80px 50px;
+        background-color: rgb(248, 245, 245);
+        margin-bottom: 30px;
+    }
+    .funix-title{
+        display: flex;
+    }
+    .col2{
+        grid-template-rows: 247px 50px 50px 120px 80px 50px;
+        background-color: rgb(248, 245, 245);
+        margin-bottom: 30px;
+    }
+    .col3{
+        grid-template-rows: 247px 50px 50px 120px 80px 50px;
+        background-color: rgb(248, 245, 245);
+        margin-bottom: 30px;
+    }
+    .contact{
+        gap: 20px;
+    }
+    .contact a{
+        font-size: 12px;
+    }
+    .fb i,.lin i,.gith i,.backtop i{
+        font-size: 18px;
+    }
+}

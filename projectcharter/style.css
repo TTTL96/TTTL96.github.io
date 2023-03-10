@@ -1,0 +1,528 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin: 10px ;
+    padding: 10px;
+}
+.project{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 400px 400px;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+}
+/* Creat row and column */
+.scopes{
+    grid-row: 2/3;
+}
+.team{
+    grid-column: 2/3;
+}
+.primary{
+    grid-area:2/2/3/3 ;
+}
+.timeline{
+   grid-area:1/3/3/4 ;
+}
+
+/* Common elemen */
+
+h3{
+    color: blueviolet;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px ridge #908e8e;
+}
+.header{
+    padding: 15px;
+}
+.content{
+    display: grid;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+/* Các mục tiêu của dự án  */
+.goals{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    background-color: rgb(250, 230, 204);
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow:  5px 10px 10px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.goal1{
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    height: 90px;
+    padding: 20px 20px 20px 0;
+    margin-right: 20px;
+    
+}
+.goal1 i{
+    font-size: 26px;
+}
+.goal1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.goal1 p::first-line{
+    font-size: 18px;
+    font-weight: bold;
+}
+.goal2{
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    height: 90px;
+    padding: 20px 20px 20px 0;
+    margin-right: 20px;
+}
+.goal2 i{
+    font-size: 26px;
+}
+.goal2 p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.goal2 p::first-line{
+    font-size: 18px;
+    font-weight: bold;
+}
+.goal3{
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    height: 90px;
+    padding: 20px 20px 20px 0;
+    margin-right: 20px;
+}
+.goal3 i{
+    font-size: 26px;
+}
+.goal3 p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.goal3 p::first-line{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* creat team */
+/* thành viên trong nhóm */
+.team{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    background-color: rgb(250, 230, 204);
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow:  5px 10px 10px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.team .content{
+    padding-left: 20px;
+}
+.member1{
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    height: 90px;
+    padding: 20px 20px 20px 0;
+    margin-right: 20px;
+}
+.member1 i{
+    font-size: 36px;
+    padding-top: 5px;
+}
+.member1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.member1 p::first-line{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.member2{
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    height: 90px;
+    padding: 20px 20px 20px 0;
+    margin-right: 20px;
+}
+.member2 i{
+    font-size: 36px;
+    padding-top: 5px;
+}
+.member2 p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.member2 p::first-line{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* Creat scopes */
+
+.scopes{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    background-color: rgb(250, 230, 204);
+    height: 400px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow:  5px 10px 10px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.scopes .content{
+    display: flex;
+    gap: 30px;
+}
+h4{
+    font-size: 20px;
+    margin: 0;   
+}
+.in{
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.in p{
+    margin: 0;
+    padding-top: 10px;
+}
+.out{
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.out p{
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Creat primary */
+
+.primary{
+    display: grid;
+    grid-template-rows: 70px 330px;
+    background-color: rgb(250, 230, 204);
+    height: 400px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow:  5px 10px 10px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.primary .content{
+    padding-left: 13px;
+}
+.primary1{
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    padding: 20px 0px 15px 0;
+    margin-right: 20px;  
+    margin-left: 0; 
+}
+.primary1 i{
+    font-size: 24px;
+    padding-top: 6px;
+}
+.primary1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: justify;
+}
+.primary2{
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    padding: 0px 0px 15px 0;
+    margin-right: 20px;  
+    margin-left: 0; 
+}
+.primary2 i{
+    font-size: 24px;
+    padding-top: 6px;
+}
+.primary2 p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: justify;
+}
+/* Creat timeline */
+
+.timeline{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    background-color: rgb(250, 230, 204);
+    padding-left: 10px;
+    padding-right: 20px; 
+    box-shadow:  5px 10px 10px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.timeline .content{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+.number1{
+    position: relative;
+    padding-top: 20px;
+    height: 90px;
+    border-bottom: 1px dashed rgb(43, 203, 239);
+}
+.number1::before{
+    content: '1';
+    position: absolute;
+    left: -65px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px ridge;
+    border-radius: 50%;
+    background-color: rgb(138, 235, 162);  
+    text-align: center;
+    font-size: 40px;
+    color: rgb(129, 44, 209);
+}
+.number1 p{
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+}
+.number1 p:first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.number1 p:last-child{
+    padding-bottom: 10px;
+}
+.number2{
+    position: relative;
+    padding-top: 20px;
+    height: 90px;
+    border-bottom: 1px dashed rgb(8, 195, 237);
+}
+.number2::before{
+    content: '2';
+    position: absolute;
+    left: -65px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px ridge;
+    border-radius: 50%;
+    background-color: rgb(138, 235, 162);  
+    text-align: center;
+    font-size: 40px;
+    color: rgb(129, 44, 209);
+}
+.number2 p{
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+}
+.number2 p:first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.number2 p:last-child{
+    padding-bottom: 10px;
+}
+.number3{
+    position: relative;
+    padding-top: 20px;
+    height: 90px;
+    border-bottom: 1px dashed rgb(13, 189, 229);
+}
+.number3::before{
+    content: '3';
+    position: absolute;
+    left: -65px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px ridge;
+    border-radius: 50%;
+    background-color: rgb(138, 235, 162);  
+    text-align: center;
+    font-size: 40px;
+    color: rgb(129, 44, 209);
+}
+.number3 p{
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+}
+.number3 p:first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.number3 p:last-child{
+    padding-bottom: 10px;
+}
+.number4{
+    position: relative;
+    padding-top: 20px;
+    height: 90px;
+    border-bottom: 1px dashed rgb(7, 175, 213);
+}
+.number4::before{
+    content: '4';
+    position: absolute;
+    left: -65px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px ridge;
+    border-radius: 50%;
+    background-color: rgb(138, 235, 162);  
+    text-align: center;
+    font-size: 40px;
+    color: rgb(129, 44, 209);
+}
+.number4 p{
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+}
+.number4 p:first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.number4 p:last-child{
+    padding-bottom: 10px;
+}
+.number5{
+    position: relative;
+    padding-top: 20px;
+    height: 90px;
+    border-bottom: 1px dashed rgb(8, 162, 196);
+}
+.number5::before{
+    content: '5';
+    position: absolute;
+    left: -65px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px ridge;
+    border-radius: 50%;
+    background-color: rgb(138, 235, 162);  
+    text-align: center;
+    font-size: 40px;
+    color: rgb(129, 44, 209);
+}
+.number5 p{
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+}
+.number5 p:first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.number5 p:last-child{
+    padding-bottom: 10px;
+}
+.number6{
+    position: relative;
+    padding-top: 20px;
+    height: 90px;
+    border-bottom: 1px dashed rgb(7, 170, 207);
+}
+.number6::before{
+    content: '6';
+    position: absolute;
+    left: -65px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px ridge;
+    border-radius: 50%;
+    background-color: rgb(138, 235, 162);  
+    text-align: center;
+    font-size: 40px;
+    color: rgb(129, 44, 209);
+}
+.number6 p{
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+}
+.number6 p:first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.number6 p:last-child{
+    padding-bottom: 10px;
+}
+
+/* Creat button back to home */
+
+.home{
+    background: none;
+    font-size: 32px;
+    border: none;
+    position: fixed;
+    top: 5px;
+    left: 25px;
+    cursor: pointer;
+}
+.home i:hover{
+    color: blueviolet;
+}
+.home i{
+    color: rgb(241, 177, 231);
+}
+@media screen and (max-width: 1024px) {
+    .project{
+        grid-template-rows: 400px 450px;
+    }
+    .scopes, .primary{
+        height: 450px;
+    }
+    .goal3{
+        height: 110px;
+    }
+    .member1, .member2{
+        display: block;
+        border-bottom: none;
+        height: 145px;
+        margin-right: 0;
+    }
+    .member1 i,.member2 i{
+        font-size: 34px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        padding-left: 70px;
+    }
+}
+/* Creat hover for content */
+/* .goals:hover, .team:hover, .scopes:hover, .primary:hover, .timeline:hover{
+    background-color:  rgb(247, 215, 175);   
+} */

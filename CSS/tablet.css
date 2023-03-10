@@ -1,0 +1,185 @@
+@media screen and (max-width : 768px) {
+    .name-job {
+        left: 30%;
+        top: 6%;
+        transform: translate(-50%, 50%);
+    }
+    .name-job::first-line{
+        font-size: 22px;
+    } 
+    .avata{
+        width: 130px;
+        height: 130px;
+        top: -50px;
+    }
+    .namejob p{
+        display: none;
+    }
+    .namejob{
+        width: 150px;
+    }
+    .nav-info,.nav-profile,.nav-certificate,.nav-project,.namejob{
+        height: 50px;
+    }
+    /* TOPCONTAINER */
+    .topcontainer h1{
+        font-size: 24px;
+    }
+    .target, .info{
+        padding: 40px 35px;
+    }
+    .info-content{
+        gap: 30px;
+    }
+    /* maincontainer */
+
+    .row1{
+        grid-template-columns: 30% 30% 30%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .exp-header{
+        gap: 30px;
+    }
+    .exp-header i {
+       font-size: 30px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .maincontainer p{
+        font-size: 14px;
+    }
+    .maincontainer ul{
+        font-size: 14px;
+    }
+    .maincontainer i{
+        font-size: 30px;
+    }
+    .hob-header,.lang-header,.skill-header{
+        gap: 30px;
+    }
+    .row2{
+        grid-template-columns: 30% 30% 30%;
+    }
+    .btn{
+        font-size: 16px;
+        width: 140px;
+        height: 35px;
+        left: 40px;       
+    }
+    .btn i{
+        padding-top: 2.5px ;
+        padding-left: 10px;
+        font-size: 26px;
+    }
+    /* hobby */
+    .hobby{
+        /* height: 400px;  */
+        grid-template-rows: 20% 80%;      
+    }
+    .hobby .content{
+        display: flex;
+    }
+    .icon-hobby{
+        display: block;  
+        width: 50px; 
+        margin-left: 10px; 
+        margin-bottom: 40px;  
+    }
+    .icon-hobby i{
+        padding: 15px;
+        font-size: 22px;
+    }
+    .icon-name{
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 40px; 
+    }
+    .icon-name p{
+        padding: 15px;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    /* Chứng chỉ - Giải thưởng */
+    .certificate{
+        display: grid;
+        grid-template-rows: 100px 420px;
+    }
+    .cer-header h2{
+        padding-left: 50px;
+    }
+    .cer-row1{
+        padding-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .cer-web{
+        display: block;
+    }
+    .cer-java{
+        display: block;
+    }
+    .row1-col1-list{
+        padding-top: 20px;
+    }
+    .row2-col2-list{
+        padding-top: 20px;
+    }
+    .cer-row2{
+        border-bottom: 2px ridge;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cer-row3{
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    /* project */
+    .project{
+        grid-template-rows: 100px 600px;
+    }
+    .col1{
+        grid-template-rows: 141px 70px 70px 180px 80px 60px;
+    }
+    .pro-content{
+        gap: 15px;
+    }
+    .project h4{
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+    .funix-title{
+        display: block;
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+    .funix{
+        padding-bottom: 5px;
+    }
+    .describe p{
+        padding-top: 5px;
+    }
+    .mission p{
+        padding-top: 5px;
+    }
+    .technology p{
+        padding-top: 5px;
+    }
+    .col2{
+        grid-template-rows: 141px 70px 70px 180px 80px 60px;
+    }
+    .funix-title{
+        display: block;
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+    .funix{
+        padding-bottom: 5px;
+    }
+    .col3{
+        grid-template-rows: 141px 70px 70px 180px 80px 60px;
+    }
+}

@@ -1,0 +1,201 @@
+@media screen and (max-width : 768px) {
+    .project{
+        display: block;
+        padding: 15px;
+        margin: 15px;
+    }
+    .content{
+        display: block;
+        padding-left: 50px;
+    }
+    /* Creat goal  */
+    .goals{
+        margin-bottom: 30px;
+        height: 450px;
+    }
+    .goal1{
+        display: block;
+        border-bottom: 1px solid rgb(163, 163, 163);
+        height: 110px;
+        padding: 20px 20px 0px 0;
+        margin-right: 20px; 
+        position: relative;   
+    }
+    .goal1 i{
+        font-size: 32px;
+        position: absolute;
+        left: 50%;
+    }
+    .goal1 p{
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+    }
+    .goal2{
+        display: block;
+        border-bottom: 1px solid rgb(163, 163, 163);
+        height: 110px;
+        padding: 20px 20px 0px 0;
+        margin-right: 20px; 
+        position: relative;   
+    }
+    .goal2 i{
+        font-size: 32px;
+        position: absolute;
+        left: 50%;
+    }
+    .goal2 p{
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+    }
+    .goal3{
+        display: block;
+        border-bottom: 1px solid rgb(163, 163, 163);
+        height: 110px;
+        padding: 20px 20px 0px 0;
+        margin-right: 20px; 
+        position: relative;   
+    }
+    .goal3 i{
+        font-size: 32px;
+        position: absolute;
+        left: 50%;
+    }
+    .goal3 p{
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+    }
+    /* Creat style scope */
+    .scopes{
+        height: 430px;
+        margin-bottom: 30px;
+    }
+    .scopes .content{
+        display: block;
+    }
+
+    /* Creat style team */
+    .team{
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .member1{
+        padding-top: 40px;
+        letter-spacing: 1px;
+        height: 120px;
+    }
+    .member2{
+        padding-top: 30px;
+        letter-spacing: 1px;
+    }
+
+    /* Creat style primary */
+
+    .primary{
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .primary1{
+        height: 100px;
+    }
+    
+    /* Creat style timeline */
+    .timeline{
+        height: 980px;
+        grid-template-rows: 50px 930px;
+    }
+
+    .timeline .content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .number1{
+        height: 140px;
+    }
+    .number1 p{
+       margin-top: 60px;
+    }
+    .number1 p:last-child{
+        margin: 0;
+    }
+    .number1::before{
+        top: 15px;
+        left: 0px;
+    }
+    .number2{
+        height: 140px;
+    }
+    .number2 p{
+       margin-top: 60px;
+    }
+    .number2 p:last-child{
+        margin: 0;
+    }
+    .number2::before{
+        top: 15px;
+        left: 0px;
+    }
+    .number3{
+        height: 140px;
+    }
+    .number3 p{
+       margin-top: 60px;
+    }
+    .number3 p:last-child{
+        margin: 0;
+    }
+    .number3::before{
+        top: 15px;
+        left: 0px;
+    }
+    .number4{
+        height: 140px;
+    }
+    .number4 p{
+       margin-top: 60px;
+    }
+    .number4 p:last-child{
+        margin: 0;
+    }
+    .number4::before{
+        top: 15px;
+        left: 0px;
+    }
+    .number5{
+        height: 140px;
+    }
+    .number5 p{
+       margin-top: 60px;
+    }
+    .number5 p:last-child{
+        margin: 0;
+    }
+    .number5::before{
+        top: 15px;
+        left: 0px;
+    }
+    .number6{
+        height: 140px;
+    }
+    .number6 p{
+       margin-top: 60px;
+    }
+    .number6 p:last-child{
+        margin: 0;
+    }
+    .number6::before{
+        top: 15px;
+        left: 0px;
+    }
+    .home{
+        left: 0;
+    }
+}
